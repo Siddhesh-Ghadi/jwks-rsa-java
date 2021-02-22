@@ -2,6 +2,6 @@ os: linux-ppc64le
   
 language: java
 
-jdk: adoptjdk11
+jdk: adoptjdk8
 
 dist: bionic
