@@ -1,7 +1,4 @@
-arch:
-  - amd64
-  - ppc64le
-  - s390x
+os: linux-ppc64le
   
 language: java
 
