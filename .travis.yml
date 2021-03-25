@@ -11,5 +11,5 @@ before_install:
   - sudo rm -rf /var/lib/apt/lists/*
   - sudo apt-get update -y
   - sudo apt install adoptopenjdk-8-hotspot -y
-  - sudo apt install adoptopenjdk-11-hotspot -y
+  - sudo apt remove adoptopenjdk-11-hotspot -y
   - java -version
